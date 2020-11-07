@@ -49,6 +49,7 @@
 		85331B622556AE5E0039D385 /* Subtitle _v6.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subtitle _v6.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85331B662556AE5E0039D385 /* Subtitle__v6_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtitle__v6_0UITests.swift; sourceTree = "<group>"; };
 		85331B682556AE5E0039D385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85331B772556AE6B0039D385 /* Subtitle _v6.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Subtitle _v6.0.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		85331B432556AE560039D385 /* Subtitle _v6.0 */ = {
 			isa = PBXGroup;
 			children = (
+				85331B772556AE6B0039D385 /* Subtitle _v6.0.entitlements */,
 				85331B442556AE560039D385 /* AppDelegate.swift */,
 				85331B462556AE560039D385 /* SceneDelegate.swift */,
 				85331B482556AE560039D385 /* ViewController.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Subtitle _v6.0/Subtitle _v6.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LR58F43S2;
 				INFOPLIST_FILE = "Subtitle _v6.0/Info.plist";
@@ -445,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lgl.2.Subtitle--v6-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Subtitle _v6.0/Subtitle _v6.0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4LR58F43S2;
 				INFOPLIST_FILE = "Subtitle _v6.0/Info.plist";
@@ -464,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "lgl.2.Subtitle--v6-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
