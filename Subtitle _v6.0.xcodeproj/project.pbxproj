@@ -100,6 +100,9 @@
 		85331B432556AE560039D385 /* Subtitle _v6.0 */ = {
 			isa = PBXGroup;
 			children = (
+				85331B7B2556B8470039D385 /* Model */,
+				85331B7C2556B8560039D385 /* View */,
+				85331B7D2556B8790039D385 /* Controller */,
 				85331B772556AE6B0039D385 /* Subtitle _v6.0.entitlements */,
 				85331B442556AE560039D385 /* AppDelegate.swift */,
 				85331B462556AE560039D385 /* SceneDelegate.swift */,
@@ -128,6 +131,27 @@
 				85331B682556AE5E0039D385 /* Info.plist */,
 			);
 			path = "Subtitle _v6.0UITests";
+			sourceTree = "<group>";
+		};
+		85331B7B2556B8470039D385 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85331B7C2556B8560039D385 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85331B7D2556B8790039D385 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
