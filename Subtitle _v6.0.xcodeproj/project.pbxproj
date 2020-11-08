@@ -100,14 +100,14 @@
 		85331B432556AE560039D385 /* Subtitle _v6.0 */ = {
 			isa = PBXGroup;
 			children = (
+				85331B4A2556AE560039D385 /* Main.storyboard */,
+				85331B482556AE560039D385 /* ViewController.swift */,
 				85331B7B2556B8470039D385 /* Model */,
 				85331B7C2556B8560039D385 /* View */,
 				85331B7D2556B8790039D385 /* Controller */,
 				85331B772556AE6B0039D385 /* Subtitle _v6.0.entitlements */,
 				85331B442556AE560039D385 /* AppDelegate.swift */,
 				85331B462556AE560039D385 /* SceneDelegate.swift */,
-				85331B482556AE560039D385 /* ViewController.swift */,
-				85331B4A2556AE560039D385 /* Main.storyboard */,
 				85331B4D2556AE5D0039D385 /* Assets.xcassets */,
 				85331B4F2556AE5D0039D385 /* LaunchScreen.storyboard */,
 				85331B522556AE5D0039D385 /* Info.plist */,
